@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39011A422E6257BD00D00C1E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39011A412E6257BD00D00C1E /* TabBarViewController.swift */; };
 		EA017CE81DBED75E00237CA9 /* SingleShotOffscreenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA017CE71DBED75E00237CA9 /* SingleShotOffscreenLabel.swift */; };
 		EA017CEA1DBEDCD900237CA9 /* NoReturnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA017CE91DBEDCD900237CA9 /* NoReturnAnimation.swift */; };
 		EA8107F42AE4915C00FC6759 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EA8107F32AE4915C00FC6759 /* PrivacyInfo.xcprivacy */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39011A412E6257BD00D00C1E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = SOURCE_ROOT; };
 		EA017CE71DBED75E00237CA9 /* SingleShotOffscreenLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleShotOffscreenLabel.swift; path = ../../Extras/SingleShotOffscreenLabel.swift; sourceTree = "<group>"; };
 		EA017CE91DBEDCD900237CA9 /* NoReturnAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoReturnAnimation.swift; path = ../../Extras/NoReturnAnimation.swift; sourceTree = "<group>"; };
 		EA167D021CA8B43700DBF930 /* MarqueeLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 				EAE4AC5D1CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift */,
 				EAE4AC5C1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift */,
 				EAE4AC5E1CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift */,
+				39011A412E6257BD00D00C1E /* TabBarViewController.swift */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39011A422E6257BD00D00C1E /* TabBarViewController.swift in Sources */,
 				EAE4AC5F1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift in Sources */,
 				EAE4AC601CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift in Sources */,
 				EAE4ACCF1CAA2495006C1ECC /* MarqueeLabel.swift in Sources */,

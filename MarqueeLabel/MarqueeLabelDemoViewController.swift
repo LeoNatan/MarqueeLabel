@@ -42,9 +42,15 @@ class MarqueeLabelDemoViewController : UIViewController {
     @IBOutlet weak var labelizeSwitch: UISwitch!
     @IBOutlet weak var holdLabelsSwitch: UISwitch!
     @IBOutlet weak var pauseLabelsSwitch: UISwitch!
+	
+	@IBOutlet weak var effectView: UIVisualEffectView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+		
+		if #available(iOS 26.0, *) {
+			effectView.effect = UIGlassEffect(style: .clear)
+		}
         
         // Continuous Type
         demoLabel1.tag = 101
